@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #efede3;
 }
 
 *, *::before, *::after {
@@ -22,7 +23,7 @@ html {
 
 .left-unit {
   position: relative;
-  margin-top: 3em;
+  margin-top: 3.5em;
 }
 
 .paragraph-1 {
@@ -31,7 +32,7 @@ html {
   top: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Quicksand', sans-serif;
-  color: green;
+  margin-top: -.7rem;
 }
 
 .right-unit {
@@ -44,10 +45,11 @@ html {
   top: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Quicksand', sans-serif;
-  color: green;
+  margin-top: -.7rem;
 }
 
 h2 {
   font-family: 'Anton', sans-serif;
   font-size: 3rem;
+  color: #e8da8d;
 }
