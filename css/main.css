@@ -11,19 +11,17 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #efede3;
+  font-family: 'Quicksand', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.content {
-  text-align: center;
-}
-
 .left-unit {
   position: relative;
   margin-top: 3.5em;
+  text-align: center;
 }
 
 .paragraph-1 {
@@ -31,12 +29,12 @@ html {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Quicksand', sans-serif;
   margin-top: -.7rem;
 }
 
 .right-unit {
   position: relative;
+  text-align: center;
 }
 
 .paragraph-2 {
@@ -44,12 +42,56 @@ html {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Quicksand', sans-serif;
   margin-top: -.7rem;
+}
+
+.paragraph-3 {
+  text-align: center;
+}
+
+.equal-sign {
+  text-align: center;
 }
 
 h2 {
   font-family: 'Anton', sans-serif;
   font-size: 3rem;
   color: #e8da8d;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .left-unit {
+    text-align: left;
+    position: relative;
+  }
+
+  .paragraph-1 {
+    position: absolute;
+    top: 50%;
+    vertical-align: middle;
+  }
+
+  .text-behind-hunger {
+    text-align: center;
+  }
+
+  .right-unit {
+    text-align: right;
+    position: relative;
+  }
+
+  .paragraph-2 {
+    position: absolute;
+    top: 50%;
+  }
+
+  .text-behind-torture {
+  }
+
 }
