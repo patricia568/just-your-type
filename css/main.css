@@ -68,30 +68,12 @@ h2 {
 
   .left-unit {
     text-align: left;
-    position: relative;
+  }
+  .equal-sign {
+    text-align: left;
+
   }
 
-  .paragraph-1 {
-    position: absolute;
-    top: 50%;
-    vertical-align: middle;
-  }
-
-  .text-behind-hunger {
-    text-align: center;
-  }
-
-  .right-unit {
-    text-align: right;
-    position: relative;
-  }
-
-  .paragraph-2 {
-    position: absolute;
-    top: 50%;
-  }
-
-  .text-behind-torture {
-  }
+}
 
 }
