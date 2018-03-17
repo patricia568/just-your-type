@@ -1,6 +1,6 @@
 html {
   background-color: #efede3;
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .left-unit {
@@ -38,8 +38,8 @@ html {
   text-align: center;
 }
 
-h1 {
-  font-family: "Anton", sans-serif;
+h1, h2 {
+  font-family: Anton, sans-serif;
   color: #e8da8d;
 }
 
@@ -57,7 +57,7 @@ h1 {
     margin-top: 3.5em;
   }
 
-  h1 {
+  h1, h2 {
     text-align: center;
   }
 
