@@ -70,9 +70,17 @@ h2 {
     text-align: center;
   }
 
-  .left-unit {
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
   }
 
-}
+  .right-unit {
+    margin-top: 3.5em;
+  }
 
 }
