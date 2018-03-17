@@ -81,6 +81,19 @@ h2 {
 
   .right-unit {
     margin-top: 3.5em;
+    text-align: right;
+  }
+
+  .left-unit {
+    text-align: left;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .equal-sign {
+    margin-top: 3.5em;
   }
 
 }
