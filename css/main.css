@@ -66,12 +66,11 @@ h2 {
     line-height: 1.4;
   }
 
-  .left-unit {
-    text-align: left;
-  }
   .equal-sign {
-    text-align: left;
+    text-align: center;
+  }
 
+  .left-unit {
   }
 
 }
