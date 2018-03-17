@@ -38,9 +38,8 @@ html {
   text-align: center;
 }
 
-h2 {
+h1 {
   font-family: 'Anton', sans-serif;
-  font-size: 3rem;
   color: #e8da8d;
 }
 
@@ -63,7 +62,7 @@ h2 {
     text-align: left;
   }
 
-  h2 {
+  h1 {
     text-align: center;
   }
 
